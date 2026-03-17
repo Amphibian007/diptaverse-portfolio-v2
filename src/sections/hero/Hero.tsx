@@ -1,16 +1,7 @@
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
+import { HeroNav } from "@/sections/hero/HeroNav";
 import { RotatingRole } from "@/sections/hero/RotatingRole";
-
-const navItems = [
-  { label: "Home", href: "#hero" },
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Evaluations", href: "#evaluations" },
-  { label: "Proof", href: "#proof" },
-  { label: "Leadership", href: "#leadership" },
-  { label: "Contact", href: "#contact" },
-];
 
 const fieldDots = [
   { top: "7%", left: "10%", size: "h-1 w-1" },
@@ -108,39 +99,13 @@ function HeroAvatar() {
 export function Hero() {
   return (
     <section
-      id="hero"
+      id="home"
       className="relative min-h-screen overflow-hidden bg-[#0f1828]"
     >
       <HeroField />
 
       <div className="relative z-10 mx-auto flex min-h-screen max-w-6xl flex-col px-6 pt-5 pb-8 sm:px-10">
-        <header className="flex flex-wrap items-center justify-between gap-5">
-          <a
-            href="#hero"
-            className="font-mono text-sm font-semibold tracking-tight text-[#2ed1c8]"
-          >
-            &lt;diptaverse /&gt;
-          </a>
-
-          <nav
-            aria-label="Primary"
-            className="flex flex-wrap items-center justify-end gap-x-5 gap-y-2 font-mono text-[11px] font-semibold text-[#dce8f4]"
-          >
-            {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className={`transition-colors hover:text-[#2ed1c8] ${
-                  item.label === "Home"
-                    ? "border-b border-[#2ed1c8] pb-1 text-[#2ed1c8]"
-                    : ""
-                }`}
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
-        </header>
+        <HeroNav />
 
         <div className="flex flex-1 items-center justify-center">
           <div className="flex max-w-4xl flex-col items-center text-center">
