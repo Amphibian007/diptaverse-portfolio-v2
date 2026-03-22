@@ -4,6 +4,7 @@ import { EnterpriseWork } from "@/sections/experience/EnterpriseWork";
 import { SalesApproach } from "@/sections/experience/SalesApproach";
 import { Events } from "@/sections/experience/Events";
 import { HowIWork } from "@/sections/how-i-work/HowIWork";
+import { CaseStudies } from "@/sections/case-studies/CaseStudies";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SalesApproach />
       <Events />
       <HowIWork />
+      <CaseStudies />
     </main>
   );
 }

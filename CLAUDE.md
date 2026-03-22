@@ -88,7 +88,7 @@ src/data/contact.ts — contact links
 - About ✅
 - Experience ✅
 - How I Work ✅
-- Case Studies ⬜
+- Case Studies ✅
 - Expertise ⬜
 - Blogs ⬜
 - Background ⬜
