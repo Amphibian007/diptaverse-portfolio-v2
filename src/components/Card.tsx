@@ -1,3 +1,5 @@
+"use client";
+
 type CardCta = {
   label: string;
   href?: string;

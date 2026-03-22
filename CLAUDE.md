@@ -85,8 +85,8 @@ src/data/contact.ts — contact links
 
 ## Section Completion Status
 - Hero ✅
-- About ⬜
-- Experience ⬜
+- About ✅
+- Experience ✅
 - How I Work ⬜
 - Case Studies ⬜
 - Expertise ⬜
