@@ -89,7 +89,7 @@ src/data/contact.ts — contact links
 - Experience ✅
 - How I Work ✅
 - Case Studies ✅
-- Expertise ⬜
-- Blogs ⬜
-- Background ⬜
-- Contact ⬜
+- Expertise ✅
+- Blogs ✅
+- Background ✅
+- Contact ✅
