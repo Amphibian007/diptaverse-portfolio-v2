@@ -13,11 +13,10 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   { label: "Home", href: "#home" },
-  { label: "Overview", href: "#overview" },
-  { label: "Expertise", href: "#expertise" },
+  { label: "About", href: "#about" },
   {
     label: "Experience",
-    href: "#experience",
+    href: "#enterprise-work",
     children: [
       { label: "Enterprise Work", href: "#enterprise-work" },
       { label: "Sales Approach", href: "#sales-approach" },
@@ -26,10 +25,11 @@ const navItems: NavItem[] = [
   },
   { label: "How I Work", href: "#how-i-work" },
   { label: "Case Studies", href: "#case-studies" },
+  { label: "Expertise", href: "#expertise" },
   { label: "Blogs", href: "#blogs" },
   {
     label: "Background",
-    href: "#background",
+    href: "#education",
     children: [
       { label: "Education", href: "#education" },
       { label: "Leadership", href: "#leadership" },

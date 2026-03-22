@@ -1,8 +1,21 @@
 @import "tailwindcss";
 
 :root {
+  /* Background */
   --bg-primary: #071426;
-  --text-primary: #EAF7FF;
+  --panel: #0f223f;
+  --panel-secondary: #13294b;
+
+  /* Text */
+  --text-primary: #eaf7ff;
+  --text-secondary: #9db7c8;
+  --text-muted: #6f8da1;
+
+  /* Accent */
+  --accent: #36efdc;
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.08);
 }
 
 html {
@@ -12,5 +25,5 @@ html {
 body {
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
 }
